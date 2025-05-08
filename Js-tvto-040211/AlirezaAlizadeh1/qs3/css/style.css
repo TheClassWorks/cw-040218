@@ -1,0 +1,17 @@
+body{
+    background-color: aqua;
+}
+.Login{
+    text-align: center;
+}
+.Btn3{
+margin-left: 6px;
+
+}
+.form{
+    background-color: wheat;
+    text-align: center;
+    width: 25%;
+    margin-left: 450px;
+
+}

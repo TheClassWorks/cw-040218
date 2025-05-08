@@ -1,0 +1,30 @@
+.a{
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.a p{
+    color: red;
+    font-weight: bolder;
+}
+
+
+
+
+.row{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+}
+
+.b{
+border-right: 1px solid black;
+}
+
+.b ul li{
+   list-style: none;
+}

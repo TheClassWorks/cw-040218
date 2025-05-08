@@ -1,0 +1,23 @@
+.A{
+    background-color: aquamarine;
+    height: 50px;
+}
+
+.B{
+    background-color: blueviolet;
+    width: 300px;
+    height: 500px;
+    float: left;
+}
+
+.C{
+    background-color: brown;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.C img{
+    width: 300px;
+    text-align: center;
+}

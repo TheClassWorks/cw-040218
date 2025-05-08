@@ -1,0 +1,37 @@
+.part1 {
+    width: 100%;
+    background-color: aqua;
+    text-align: center;
+    color: red;
+    font-size: larger;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.part2 {
+    width: 20%;
+    background-color: yellow;
+    text-align: center;
+    color: red;
+    font-size: larger;
+    padding-bottom: 300px;
+    padding-top: 300px;
+    height: 200px;
+    display: flex;
+    position: absolute;
+}
+.part3{
+    left: 20%;
+    background-color: blue;
+    text-align: center;
+    font-size: larger;
+    height: 820px;
+    width: 800px;
+    display: flex;
+    position: relative;
+    padding-left: 200px;
+}
+.part3 img{
+    width: 150px;
+    height: 100px;
+
+}

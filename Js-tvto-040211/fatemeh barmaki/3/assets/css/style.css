@@ -1,0 +1,24 @@
+.matn{
+    color: red;
+    visibility: hidden;
+}
+body{
+    display: block;
+    margin: 20%;
+    background-color: azure;
+}
+.logform{
+    display: flex;
+    background-color: rgb(253, 255, 255);
+    width: 350px;
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+  
+   
+}
+#username{
+    margin-bottom: 10px;
+}

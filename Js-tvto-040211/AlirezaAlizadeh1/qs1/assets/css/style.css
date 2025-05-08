@@ -1,0 +1,23 @@
+.A{
+    background-color: green;
+    width: 100%;
+    height: 80px;
+}
+.B{
+    background-color: red;
+    width: 30%;
+    height: 600px;
+    float: left;
+}
+.C{
+    background-color: pink;
+    height: 600px
+    
+}
+.pictur{
+width: 300px;
+margin-left: 400px;
+}
+h3{
+
+}

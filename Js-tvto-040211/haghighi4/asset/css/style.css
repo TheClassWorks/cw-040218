@@ -1,0 +1,19 @@
+.a {
+  width: 200px;
+  height: 100% auto;
+  background-color: rgb(14, 139, 52);
+}
+.b {
+  width: 200px;
+  height: 100% auto;
+  background-color: rgb(184, 31, 184);
+}
+.c {
+  width: 200px;
+  height: 100% auto;
+  background-color: rgb(209, 62, 17);
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
