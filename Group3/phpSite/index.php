@@ -8,8 +8,8 @@ include "includes/layout/header.php";
 //query پرس و جو
 //crud : create, read, update, delete
 
-$posts = $connection->query("SELECT * FROM posts ");
-var_dump($posts->fetchAll());
+// $posts = $connection->query("SELECT * FROM posts ");
+// var_dump($posts->fetchAll());
 
 
 ?>

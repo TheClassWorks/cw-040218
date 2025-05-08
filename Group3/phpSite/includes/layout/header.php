@@ -1,3 +1,11 @@
+<?php
+
+$categories = $connection->query("SELECT * FROM categories");
+// var_dump($categories->fetchAll());
+
+
+
+?>
 <!DOCTYPE html>
 <html dir="rtl" lang="fa">
 
@@ -23,9 +31,10 @@
                 <img src="assets/images/logo.png" style="width: 180px" />
             </a>
             <nav class="d-inline-flex mt-2 mt-md-0 me-md-auto">
-                <a class="fw-bold me-3 py-2 link-body-emphasis text-decoration-none" href="#">برنامه نویسی</a>
-                <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">شبکه</a>
-                <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">اخبار فناوری</a>
-                <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">متفرقه</a>
+                <?php foreach ($categories as $category): ?>
+                    <a class="fw-bold me-3 py-2 link-body-emphasis text-decoration-none" href="#">
+                        <?= $category['title'] ?>
+                    </a>
+                <?php endforeach ?>
             </nav>
         </header>
